@@ -1,0 +1,2 @@
+#!/bin/sh
+ng build elementsExampleGithub --prod --output-hashing=none && cat dist/elementsExampleGithub/runtime.js dist/elementsExampleGithub/polyfills.js dist/elementsExampleGithub/styles.js dist/elementsExampleGithub/main.js > preview/feedbackapp.js
